@@ -18,37 +18,40 @@ public class WriteFile {
     public static void main(String[] args) {
 
         Connection con = DBConnection.getConnection();
-        PreparedStatement ps;
-        ResultSet rs;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        FileWriter fileWriter;
+        BufferedWriter bufferedWriter = null;
 
         long startTime = System.nanoTime();
 
-        String sql = "SELECT id FROM users";
+        String sql = "SELECT ID FROM LVMT_SWT_ST_TRANSACTION";
 
         try {
 
-            FileWriter fileWriter = new FileWriter("sql_table.txt");
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            fileWriter = new FileWriter("sql_table.txt");
+            bufferedWriter = new BufferedWriter(fileWriter);
 
             ps = con.prepareStatement(sql);
             rs = ps.executeQuery();
 
             while (rs.next()) {
-                bufferedWriter.write(rs.getString("id"));
+                bufferedWriter.write(rs.getString("ID"));
                 bufferedWriter.newLine();
                 bufferedWriter.flush();
             }
 
-            bufferedWriter.close();
             System.out.println("File create successfully");
 
         } catch (Exception e) {
-            System.out.println("Error creating file");
+            System.out.println("Error creating file >> " + e);
         } finally {
             try {
+                bufferedWriter.close();
+                rs.close();
+                ps.close();
                 con.close();
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
+            } catch (SQLException | IOException throwables) {
             }
         }
 
