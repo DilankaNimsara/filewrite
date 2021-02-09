@@ -1,7 +1,5 @@
 package com.dilanka_a.filewrite;
 
-import com.dilanka_a.dbconnection.DBConnection;
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

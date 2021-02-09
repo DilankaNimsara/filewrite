@@ -1,6 +1,6 @@
 package com.dilanka_a.usingthreads;
 
-import com.dilanka_a.dbconnection.DBConnection;
+import com.dilanka_a.filewrite.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
