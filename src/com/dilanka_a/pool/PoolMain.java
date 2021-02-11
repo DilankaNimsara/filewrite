@@ -1,8 +1,7 @@
 package com.dilanka_a.pool;
 
-import com.dilanka_a.dbconnection.DBConnection;
+import com.dilanka_a.filewrite.DBConnection;
 
-import javax.rmi.ssl.SslRMIClientSocketFactory;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
