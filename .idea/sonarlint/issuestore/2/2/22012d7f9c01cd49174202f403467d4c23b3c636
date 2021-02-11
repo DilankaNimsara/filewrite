@@ -1,0 +1,32 @@
+
+p
+java:S3008
+"NRename this field "CON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õáœıÿÿÿÿ8ĞÛ“²ø.
+R
+java:S2446"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ8ëŞ²ø.
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(ùíÄé8ëŞ²ø.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô‚îŒ8÷ÌÀ°ø.
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(–ääıÿÿÿÿ8‡îô²ø.
+V
+java:S2274":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8ëŞ²ø.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ú½•Šøÿÿÿÿ8ëŞ²ø.
+J	java:S108D")Either remove or fill this block of code.(åØÁâúÿÿÿÿ8‡îô²ø.
+q
+java:S1104
+"OMake CON a static final constant or non-public and provide accessors if needed.(õáœıÿÿÿÿ8ĞÛ“²ø.
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ˆÀ¯üÿÿÿÿ8‡îô²ø.
+U	java:S106="9Replace this use of System.out or System.err by a logger.(‹±£ó8‡îô²ø.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ëŞ²ø.
+K
+java:S1444
+")Make this "public static CON" field final(õáœıÿÿÿÿ8ĞÛ“²ø.
+l
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á8¤–—³ø.
+i
+java:S2259@"LA "NullPointerException" could be thrown; "bufferedWriter" is nullable here.(Ç¢–8¤–—³ø.
+]
+java:S2259A"@A "NullPointerException" could be thrown; "rs" is nullable here.(ÅÌ”Ù8¤–—³ø.
+L
+java:S2093,"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8¤–—³ø.

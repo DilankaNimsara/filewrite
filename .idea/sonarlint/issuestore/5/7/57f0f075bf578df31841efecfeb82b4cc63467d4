@@ -1,0 +1,13 @@
+
+i
+java:S22592"LA "NullPointerException" could be thrown; "bufferedWriter" is nullable here.(Ç¢–8âÏğ¦ø.
+J	java:S1086")Either remove or fill this block of code.(åØÁâúÿÿÿÿ8¹Šè¯ø.
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ˆÀ¯üÿÿÿÿ
+]
+java:S22593"@A "NullPointerException" could be thrown; "rs" is nullable here.(ÅÌ”Ù8»ÌŠ«ø.
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(‹±£ó
+e
+java:S2095#"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¤è”Á
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(–ääıÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

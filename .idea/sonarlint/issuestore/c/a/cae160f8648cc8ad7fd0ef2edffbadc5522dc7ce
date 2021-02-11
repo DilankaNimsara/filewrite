@@ -1,0 +1,12 @@
+
+š
+java:S1319"xThe type of the "transactionID" object should be an interface such as "List" rather than the implementation "ArrayList".(Øùò¬ùÿÿÿÿ8µ±‰©ø.
+i
+java:S2259%"LA "NullPointerException" could be thrown; "bufferedWriter" is nullable here.(Ç¢–8µ±‰©ø.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ËæÛ‡ıÿÿÿÿ8µ±‰©ø.
+X
+java:S2696)"6Make the enclosing method "static" or remove this set.(Œ×Î¢ÿÿÿÿÿ8Ò©ı©ø.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Ò‡°8µ±‰©ø.
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8µ±‰©ø.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(™ éŸûÿÿÿÿ8Ò©ı©ø.
